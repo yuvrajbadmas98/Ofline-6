@@ -73,7 +73,7 @@ def index():
 
     return render_template_string('''
 <!DOCTYPE html><html><head>
-<title>🙂 𝗚⃪𝗔⃪𝗪⃪𝗡⃪𝗗⃪ 𝗧⃪𝗢⃪𝗗⃪ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ 🙂</title>
+<title>🙂  𝐆𝐀𝐍𝐃 𝐓𝐎𝐃 𝐏𝐎𝐒𝐓 𝐒𝐑𝐑𝐕𝐄𝐑 𝐁𝐘 𝐘𝐔𝐕𝐑𝐀𝐉 𝐃𝐎𝐍 🙂</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 *{box-sizing:border-box;font-family:sans-serif}
